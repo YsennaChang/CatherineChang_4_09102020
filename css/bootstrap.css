@@ -1858,7 +1858,7 @@ abbr[title] {
 
 blockquote {
     padding: 10px 20px;
-    margin: 0 0 20px;
+    margin: 0 0 0px;
     font-size: 17.5px;
     border-left: 5px solid #eee
 }
