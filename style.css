@@ -91,8 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/redim/texture-paper.png");
-    /* background-size: 280px 280px; */
+    background: url("img/texture-paper.png");
 }
 
 .b-parallax {
@@ -814,11 +813,11 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-    background-image: url("img/redim/lines-h2-bg.png");
+    background-image: url("img/lines-h2-bg.png");
 }
 
 .bg-banniere {
-    background-image: url("img/redim/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
