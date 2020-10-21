@@ -9,6 +9,13 @@ body {
 
 a,
 button {
+    display: inline-block;
+    min-width: 48px; /*SEO*/
+    min-height: 48px; /*SEO*/
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;  
     transition: all .3s ease-in-out;
     outline: none!important;
 }
