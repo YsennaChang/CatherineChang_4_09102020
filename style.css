@@ -333,7 +333,9 @@ a:hover {
     margin-top: 4px;
     font-size: 16px;
 }
-
+.nav > li a{
+    text-align: center;
+}
 .navbar-nav .open .dropdown-menu > li > a {
     text-align: inherit;
 }
@@ -342,6 +344,7 @@ a:hover {
 .nav > li a:focus {
     background: #303030!important;
     color: #FFFFFF!important;
+    text-align: center;
     font-weight: 700;
     border-radius: 40px; /*4in: Add similar style as the contact button on the middle of the screen to remind it, It's the same function at different place of the screen*/
 }
@@ -952,13 +955,10 @@ h4 {
         margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
-        text-align: left;
         padding-left: 15px;
         width: 100%;
     }
-    .nav > li:hover {
-        background: rgba(0, 0, 0, .08);
-    }
+
     .dropdown .dropdown a .caret {
         float: none;
         margin: 5px 0 0 10px!important;
