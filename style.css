@@ -671,7 +671,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #424242!important; /*4in*/
 }
 
 .container {
@@ -805,7 +805,6 @@ h4 {
 }
 .btn-atomic-tangerine {
     background: #ff9266;
-    color: #424242!important;
 }
 
 .btn-atomic-tangerine:hover {
