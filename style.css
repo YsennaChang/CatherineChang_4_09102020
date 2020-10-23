@@ -505,17 +505,11 @@ button {
     border-radius: 0;
 }
 
-/*4in*/
-ul{
-    display:flex;
-    justify-content: center;
-}
-
 li{
-    /* border: 1px solid black; */
-    margin-left: 20px;
+    /* margin-left: 20px; */ /*4in : pour utiliser bootstrap en footpage */
     min-width: 15rem;
 }
+
 .panel-rd {
     border-radius: 30px;
 }
