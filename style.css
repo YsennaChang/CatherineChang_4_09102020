@@ -200,7 +200,7 @@ a:hover {
 }
 
 .d-bloc .panel,
-/*.l-bloc*/ {
+.l-bloc {
     color: rgba(0, 0, 0, .5);
 }
 
