@@ -106,7 +106,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #333;
 }
 
 .d-bloc button:hover {
@@ -340,7 +340,10 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #303030!important;
+    color: #FFFFFF!important;
+    font-weight: 700;
+    border-radius: 40px; /* Add similar style as the contact button on the middle of the screen to remind it, It's the same function at different place of the screen*/
 }
 
 .navbar-toggle {
@@ -499,6 +502,17 @@ button {
     border-radius: 0;
 }
 
+/*4in*/
+ul{
+    display:flex;
+    justify-content: center;
+}
+
+li{
+    /* border: 1px solid black; */
+    margin-left: 20px;
+    min-width: 15rem;
+}
 .panel-rd {
     border-radius: 30px;
 }
@@ -744,6 +758,9 @@ h4 {
 .white {
     color: #FFFFFF!important;
 }
+.grey {
+    color: #424242!important;
+}
 
 .portfolio-thumb {
     margin-bottom: 24px;
@@ -781,16 +798,18 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
-}
-
-.btn-atomic-tangerine {
-    background: #F3976C;
     color: #FFFFFF!important;
+}
+.tc-tangerine{
+    color: #ff9266!important; 
+}
+.btn-atomic-tangerine {
+    background: #ff9266;
+    color: #5C5C5C!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #303030!important;
     color: #FFFFFF!important;
 }
 
