@@ -343,7 +343,7 @@ a:hover {
     background: #303030!important;
     color: #FFFFFF!important;
     font-weight: 700;
-    border-radius: 40px; /* Add similar style as the contact button on the middle of the screen to remind it, It's the same function at different place of the screen*/
+    border-radius: 40px; /*4in: Add similar style as the contact button on the middle of the screen to remind it, It's the same function at different place of the screen*/
 }
 
 .navbar-toggle {
@@ -805,7 +805,7 @@ h4 {
 }
 .btn-atomic-tangerine {
     background: #ff9266;
-    color: #5C5C5C!important;
+    color: #595959!important;
 }
 
 .btn-atomic-tangerine:hover {
