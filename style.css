@@ -671,6 +671,11 @@ a {
     color: #424242!important; /*4in*/
 }
 
+/*4in*/
+#bloc-8 a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+}
 .container {
     max-width: 1000px;
 }
