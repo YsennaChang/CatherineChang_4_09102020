@@ -681,11 +681,13 @@ a {
     text-decoration: underline;
 }
 #bloc-8 .icon-txt{
-    font: normal normal normal 16px/1 FontAwesome;
+    font: normal normal normal 16px FontAwesome;
     color: rgba(255, 255, 255, .6);
+    transition: all 0.1s;
 }
 #bloc-8 .social:hover>.icon-txt{
     color: rgba(255, 255, 255, 1);
+    font: normal normal normal 17px FontAwesome;
 }
 /*******4in*******/
 .container {
