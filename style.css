@@ -682,11 +682,11 @@ a {
 }
 #bloc-8 .icon-txt{
     font: normal normal normal 16px FontAwesome;
-    color: rgba(255, 255, 255, .6);
+    color: rgba(52, 52, 52, .6);
     transition: all 0.1s;
 }
 #bloc-8 .social:hover>.icon-txt{
-    color: rgba(255, 255, 255, 1);
+    color: #525252;
     font: normal normal normal 17px FontAwesome;
 }
 /*******4in*******/
@@ -895,7 +895,7 @@ h4 {
     }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1366px) and (min-resolution: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px)  { /*and (min-resolution: 1.5)*/
     .b-parallax {
         background-attachment: scroll;
     }
