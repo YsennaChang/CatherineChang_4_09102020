@@ -682,12 +682,11 @@ a {
 }
 #bloc-8 .icon-txt{
     font: normal normal normal 16px FontAwesome;
-    color: rgba(52, 52, 52, .6);
+    color: rgba(52, 52, 52, 1);
     transition: all 0.1s;
 }
 #bloc-8 .social:hover>.icon-txt{
-    color: #525252;
-    font: normal normal normal 17px FontAwesome;
+    font: normal normal bold 17px FontAwesome;
 }
 /*******4in*******/
 .container {
